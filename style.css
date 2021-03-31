@@ -68,3 +68,33 @@ section.pricing {
     opacity: 1;
   }
 }
+
+.demo-container,
+#target{
+	width: 600px;
+	margin: 2rem auto;
+	text-align: center;
+}
+
+#target {
+	background: #de4e00;
+	padding: 1rem;
+	color: white;
+}
+
+.demo-button {
+	display: block;
+	margin: 0 auto;
+	background: #4f67bd;
+	color: white;
+	padding: 1rem;
+	text-decoration: none;
+	border-radius: 5rem;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	font-weight: bold;
+	font-size: 80%;
+	font-weight: bold;
+	opacity: 0.7;
+	transition: all 0.2s;
+}
